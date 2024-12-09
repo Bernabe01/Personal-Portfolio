@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tag for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <!-- Link to external CSS stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Import Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header section with navigation bar -->
+  <header>
+    <nav>
+      <ul>
+        <!-- Navigation links to other pages -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content area -->
+  <main>
+    <section id="projects">
+      <!-- Section title -->
+      <h1>My Projects</h1>
+
+      <!-- Project 1: Custom Compiler -->
+      <div class="project">
+        <h2>Project 1: Custom Compiler</h2>
+        <p><strong>Description:</strong> A data processing application that reads data from an input file, processes the data, removes excess spaces and comments from the code, tokenizes the remaining code, and outputs the result in a tabular format.</p>
+        <p><strong>Technologies Used:</strong> C++</p>
+        <p><strong>Challenges:</strong> Implementing an efficient tokenizer and managing input/output formatting.</p>
+        <p><strong>Outcome:</strong> Successfully developed a lightweight compiler for code preprocessing tasks.</p>
+        <!-- Link to GitHub repository -->
+        <a href="https://github.com/Bernabe01/Project-Description-Data-Processing-Project" target="_blank">View on GitHub</a>
+      </div>
+      
+
+      <!-- Project 2: Space Invaders with Cats -->
+      <div class="project">
+        <h2>Project 2: Space Invaders with Cats</h2>
+        <p><strong>Description:</strong> A remake of Space Invaders featuring 2D cat sprites I created.</p>
+        <p><strong>Technologies Used:</strong> Python, Pygame</p>
+        <p><strong>Challenges:</strong> Implementing sprite animations and collision detection.</p>
+        <p><strong>Outcome:</strong> A fun, interactive game featuring custom cat sprites.</p>
+        <!-- Link to GitHub repository -->
+        <a href="https://github.com/Bernabe01/Space-Invaders-Cat-version" target="_blank">View on GitHub</a>
+
+        <!-- Embedded video of the project -->
+        <video controls width="100%">
+          <source src="videos/Space_Invaders_cats_optimized.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      
+      <!-- Project 3: SolidWorks Assembly Design -->
+      <div class="project">
+        <h2>Project 3: SolidWorks Assembly Design</h2>
+        <p><strong>Description:</strong> A detailed mechanical assembly design project using SolidWorks, focused on creating an exploded view of a mechanical component with accurate part annotations and a bill of materials.</p>
+        <p><strong>Technologies Used:</strong> SolidWorks</p>
+        <p><strong>Challenges:</strong> Ensuring precise alignment of components and creating an accurate exploded view with all parts listed in the Bill of Materials (BOM).</p>
+        <p><strong>Outcome:</strong> Successfully designed and documented a mechanical assembly with clear labeling and measurements for manufacturing or presentation purposes.</p>
+        
+        <!-- Embed the PDF directly into the page -->
+        <embed src="images/assembly_project.pdf" type="application/pdf" width="100%" height="600px" 
+               style="margin-top: 10px; border: 1px solid #DDD; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+        
+        <!-- Link to download or view the PDF -->
+        <a href="images/assembly_project.pdf" target="_blank" 
+           style="display: inline-block; margin-top: 15px; text-decoration: none; background-color: #6F4E37; color: #FFF8E7; padding: 10px 20px; border-radius: 5px;">
+          View Full Design (PDF)
+        </a>
+      </div>
+      
+    </section>
+  </main>
+
+  <!-- Footer with attribution -->
+  <footer>
+    <p>Designed and developed by Bernabe Amaya & CWID: 884646654</p>
+  </footer>
+</body>
+</html>
